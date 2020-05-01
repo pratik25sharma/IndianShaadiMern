@@ -1,0 +1,66 @@
+footer {
+    padding:50px 0 20px 0;
+    background-color:#0b3357;
+}
+
+footer .footer {
+    display:flex;
+    justify-content:space-between;
+}
+
+footer .footer .callouts{
+    width:100%;
+}
+
+footer .footer .callouts ul{
+    margin:0;
+    padding:0;
+}
+
+footer .footer .callouts ul span{
+    font-size:18px;
+    font-weight:500;
+    display:block;
+    position:relative;
+    color:#fff;
+    margin-bottom:15px;
+}
+
+footer .footer .callouts ul span:after{
+    content:'';
+    display:inline-block;
+    height:2px;
+    width:50px;
+    position:relative;
+    top:-4px;
+    margin-left:10px;
+    background-color:#fff;
+}
+
+footer .footer .callouts ul li{
+    list-style:none;
+}
+
+footer .footer .callouts ul li a{
+    text-decoration:none;
+    display:block;
+    font-size:14px;
+    color:#fff;
+    padding:5px 0 5px 20px;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    position:relative;
+}
+footer .footer .callouts ul li a:hover{color:#ff3d55;}
+footer .footer .callouts ul li a:hover:after{border-color:#ff3d55;left:3px;}
+footer .footer .callouts ul li a:after{content:'';position:absolute;top:2px;bottom:0;left:0px;margin:auto;width:8px;height:8px;border-right:2px solid #fff;border-top:2px solid #fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;}
+footer .sub_footer{margin-top:40px;padding-top:30px;border-top:1px solid #394b5b;text-align:right;}
+footer .sub_footer span{float:left;color:#ccc;font-size:12px;}
+footer .sub_footer ul{display:inline-block;text-align:right;}
+footer .sub_footer ul li{display:inline-block;list-style:none;margin:0 5px;}
+footer .sub_footer ul li a{text-decoration:none;display:inline-block;width:40px;height:40px;-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;background-color:rgba(0,0,0,0.5);line-height:40px;text-align:center;}
+footer .sub_footer ul li a i{color:#fff;}
+    
+footer .sub_footer ul p{color:#ccc;font-size:12px;margin:5px 0 0 0;}

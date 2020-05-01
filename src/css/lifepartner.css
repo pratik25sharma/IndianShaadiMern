@@ -1,0 +1,8 @@
+.find_prtnr{padding:30px 0;margin-top:60px;background-color:#0b3357;overflow:hidden;}
+.find_prtnr ul{margin:40px 0 0 0;padding:0;display:flex;justify-content:space-between;}
+.find_prtnr ul li{list-style:none;width:100%;margin:0 10px;text-align:center;}
+.find_prtnr ul li img{max-width:100%;}.find_prtnr ul li span{display:block;margin-top:10px;font-weight:500;color:#fff;text-align:center;}
+.find_prtnr ul li.lft_ani{position:relative;left:-100px;-webkit-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;opacity:0;}
+.find_prtnr ul li.rgt_ani{position:relative;right:-100px;-webkit-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;opacity:0;}
+.find_prtnr.visible ul li.lft_ani{opacity:1;left:0;}
+.find_prtnr.visible ul li.rgt_ani{opacity:1;right:0;}

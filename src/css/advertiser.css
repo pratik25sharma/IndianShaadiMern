@@ -1,0 +1,4 @@
+.adversiser{background-color:#ff3d55;padding:15px 0;}
+.adversiser span{font-size:16px;font-weight:500;margin-right:20px;color:#fff;}
+.adversiser a{display:inline-block;color:#fff;text-decoration:none;padding:10px 15px;border:1px solid rgba(255,255,255,0.7);font-size:14px;font-weight:500;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;margin-right:10px;}
+.adversiser a:hover{background:#fff;color:#ff3d55;text-decoration:none;border-color:#fff;}
